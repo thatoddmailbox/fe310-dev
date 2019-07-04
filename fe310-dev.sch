@@ -423,17 +423,6 @@ Wire Wire Line
 NoConn ~ 8550 1750
 NoConn ~ 8550 1350
 $Comp
-L power:+1V8 #PWR0118
-U 1 1 5C03001D
-P 4150 3500
-F 0 "#PWR0118" H 4150 3350 50  0001 C CNN
-F 1 "+1V8" H 4165 3673 50  0000 C CNN
-F 2 "" H 4150 3500 50  0001 C CNN
-F 3 "" H 4150 3500 50  0001 C CNN
-	1    4150 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R5
 U 1 1 5C0301E9
 P 4150 3650
@@ -444,8 +433,6 @@ F 3 "~" H 4150 3650 50  0001 C CNN
 	1    4150 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 3550 4150 3500
 Wire Wire Line
 	5200 3800 4150 3800
 Wire Wire Line
@@ -1784,4 +1771,17 @@ Wire Wire Line
 	2700 2200 2700 2150
 Wire Wire Line
 	750  1000 750  950 
+$Comp
+L fe310:+VAON #PWR?
+U 1 1 5DAFAE30
+P 4150 3500
+F 0 "#PWR?" H 4150 3350 50  0001 C CNN
+F 1 "+VAON" H 4165 3673 50  0000 C CNN
+F 2 "" H 4150 3500 50  0001 C CNN
+F 3 "" H 4150 3500 50  0001 C CNN
+	1    4150 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3500 4150 3550
 $EndSCHEMATC
