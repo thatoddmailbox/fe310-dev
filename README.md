@@ -37,3 +37,7 @@ These are part of the Always-On (AON) Block of the FE310. You can check the FE31
 
 ## Known issues
 See the [issue tracker](https://github.com/thatoddmailbox/fe310-dev/issues) for information about issues.
+
+## Helpful links
+* [FE310-G002 Datasheet v1p0](https://sifive.cdn.prismic.io/sifive%2F3d777659-a0dd-49ed-a011-5bebba17aecf_fe310-g002-ds.pdf)
+* [FE310-G002 Manual v19p04](https://sifive.cdn.prismic.io/sifive%2F9ecbb623-7c7f-4acc-966f-9bb10ecdb62e_fe310-g002.pdf)
