@@ -33,7 +33,7 @@ The second set of pins has no labels. When holding the board upright, the pins a
 * AON_PSD_LFALTSEL
 * GND
 
-These are part of the Always-On (AON) Block of the FE310. You can check the FE310 manual for more information about these pins; however, in most cases, the only relevant pin is AON_ERST_N, which resets the chip (and is connected to the Reset button on the board). **Note that just because there's a +1.8V pin does _not_ mean the AON pins operate at 1.8V. See issue #7 for details.**
+These are part of the Always-On (AON) Block of the FE310. You can check the FE310 manual for more information about these pins; however, in most cases, the only relevant pin is AON_ERST_N, which resets the chip (and is connected to the Reset button on the board). **Note that just because there's a +1.8V pin does _not_ mean the AON pins operate at 1.8V. See [issue #7](https://github.com/thatoddmailbox/fe310-dev/issues/7) for details.**
 
 ## Known issues
 See the [issue tracker](https://github.com/thatoddmailbox/fe310-dev/issues) for information about issues.
