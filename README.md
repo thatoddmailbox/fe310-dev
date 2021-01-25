@@ -22,5 +22,18 @@ In the middle of the board, there are two sets of pins. The first is the JTAG he
 
 Most of these should go directly to the matching pin on your JTAG adapter. The one exception is +3.3V. If you want to power the board from your adapter, connect +3.3V to your adapter's power; however, if you want to power the board from USB (so that you can see the serial port), then leave the JTAG header's +3.3V pin disconnected.
 
+The second set of pins has no labels. When holding the board upright, the pins are as follows:
+
+* +1.8V
+* AON_PMU_OUT_0
+* AON_PMU_OUT_1
+* AON_PMU_DWAKEUP_N
+* AON_ERST_N
+* AON_PSD_LFALTCLK
+* AON_PSD_LFALTSEL
+* GND
+
+These are part of the Always-On (AON) Block of the FE310. You should check the FE310 manual for more information about these pins.
+
 ## Known issues
 See the [issue tracker](https://github.com/thatoddmailbox/fe310-dev/issues) for information about issues.
