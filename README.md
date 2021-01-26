@@ -6,9 +6,9 @@ A development board for the [SiFive FE310](https://www.sifive.com/chip-designer#
 
 ## Revisions
 * Revision 0 - initial revision
-	* [revision 0 schematic](./mfg/rev0/fe310-dev.pdf), [revision 0 gerbers](./mfg/rev0)
+	* [revision 0 schematic](./mfg/rev0/fe310-dev.pdf), [revision 0 gerbers](./mfg/rev0), [revision 0 known issues](https://github.com/thatoddmailbox/fe310-dev/issues?q=is%3Aissue+label%3A%22affects+rev+0%22+) 
 * Revision 1 - added support for the G002, added mounting holes, fixed silkscreen labels for pins and LEDs
-	* [revision 1 schematic](./mfg/rev1/fe310-dev.pdf), [revision 1 gerbers](./mfg/rev1)
+	* [revision 1 schematic](./mfg/rev1/fe310-dev.pdf), [revision 1 gerbers](./mfg/rev1), [revision 1 known issues](https://github.com/thatoddmailbox/fe310-dev/issues?q=is%3Aissue+label%3A%22affects+rev+1%22+)
 
 ## Pinouts
 The main pins are on the sides, and are labeled on the silkscreen. PWM capable pins are labeled with a ~, and pins with support for the SPI or UART peripherals have their functions labeled.
@@ -36,9 +36,6 @@ The second set of pins has no labels. When holding the board upright, the pins a
 * GND
 
 These are part of the Always-On (AON) Block of the FE310. You can check the FE310 manual for more information about these pins; however, in most cases, the only relevant pin is AON_ERST_N, which resets the chip (and is connected to the Reset button on the board). **Note that just because there's a +1.8V pin does _not_ mean the AON pins operate at 1.8V. See [issue #7](https://github.com/thatoddmailbox/fe310-dev/issues/7) for details.**
-
-## Known issues
-You can see the [known issues for revision 0](https://github.com/thatoddmailbox/fe310-dev/issues?q=is%3Aissue+label%3A%22affects+rev+0%22+) and [known issues for revision 1](https://github.com/thatoddmailbox/fe310-dev/issues?q=is%3Aissue+label%3A%22affects+rev+1%22+).
 
 ## Helpful links
 * [Forked freedom-e-sdk](https://github.com/thatoddmailbox/freedom-e-sdk)
