@@ -6,7 +6,9 @@ A development board for the SiFive [FE310 chip](https://www.sifive.com/chip-desi
 
 ## Revisions
 * Revision 0 - initial revision
+	* [revision 0 schematic](./mfg/rev0/fe310-dev.pdf), [revision 0 gerbers](./mfg/rev0)
 * Revision 1 - added support for the G002, added mounting holes, fixed silkscreen labels for pins and LEDs
+	* [revision 1 schematic](./mfg/rev1/fe310-dev.pdf), [revision 1 gerbers](./mfg/rev1)
 
 ## Pinouts
 The main pins are on the sides, and are labeled on the silkscreen. PWM capable pins are labeled with a ~, and pins with support for the SPI or UART peripherals have their functions labeled.
