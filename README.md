@@ -2,7 +2,7 @@
 
 ![An image of the board](fe310-dev-labeled.jpg)
 
-A development board for the SiFive [FE310 chip](https://www.sifive.com/chip-designer#fe310), a RISC-V microcontroller. Compatible with both the FE310-G000 and FE310-G002.
+A development board for the [SiFive FE310](https://www.sifive.com/chip-designer#fe310), a RISC-V microcontroller. Compatible with both the FE310-G000 and FE310-G002.
 
 ## Revisions
 * Revision 0 - initial revision
